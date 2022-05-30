@@ -2,9 +2,8 @@
 
 * Getting started
 
-    * [Quickstart](/introduction/quick-start.md)
-    * [Installation](/introduction/installation.md)
-    * [Usage](/introduction/usage.md)
+    * [Quickstart](/)
+
 
 * Actions
 

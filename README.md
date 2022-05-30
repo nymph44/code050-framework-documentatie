@@ -3,7 +3,7 @@
 | Version  |1.0|
 |---------|------------|
 | Total Components | 18 |
-| License | Alexander Janssen|
+| License | private |
 | Last commit | May 29 2022|
 
 [Official website](https://www.code050.nl)
@@ -13,6 +13,11 @@
 [How to use](https://www.code050.nl)
 
 ---
+**Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.**
+
+It's easy, reusable, and reliable.
+
+---
 ## Features
 * Consistency inside the Code050 ecosystem
 * Cleaner code
@@ -20,20 +25,31 @@
 
 ---
 ## Install now!
-    git clone https://github.com/nymph44/code050-framework-documentatie.git
+
+The simplest and fastest way to get up and running with the Code050 UI kit is by cloning the repo.
+
+> Recommend creating a components folder inside resources
+
+    root directory / resources / views / components
+
+!> Currently not as a package available! Clone the repo into your project.
+
+```git
+git clone https://github.com/nymph44/code050-framework-documentatie.git
+```
 
 > In order to to fully use the framework you need to install Daisy UI and Flowbite to make use of the required plugins.
-
-    npm i Daisyui
-
+```npm
+npm i Daisyui
+```
 > and
-
-    npm i flowbite
-
+```npm
+npm i flowbite
+```
 > Then add Code050 UI to your `tailwind.config.js`
-
-    module.exports = {
-    darkMode: 'class',
+```tailwind.config.js
+module.exports = {
+darkMode: 'class',
 
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -196,8 +212,8 @@
         require('daisyui'),
         require('flowbite/plugin')
     ],
+```
 
-[Read more](https://www.code050.nl)
 ---
 ## Use
 [See all components ->](https://www.documentatie.nl/components)
