@@ -13,7 +13,7 @@
 [How to use](https://www.code050.nl)
 
 ---
-**Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.**
+**The code050 UI kit works by calling onto the blade components inside Laravel. I tried my best to make these components as extensive as possible by making use of ability to fill them with props.**
 
 It's easy, reusable, and reliable.
 
