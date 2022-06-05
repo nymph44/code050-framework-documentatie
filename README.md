@@ -38,14 +38,31 @@ The simplest and fastest way to get up and running with the Code050 UI kit is by
 git clone https://github.com/nymph44/code050-framework-documentatie.git
 ```
 
+## Railway font
+Material UI was designed with the Roboto font in mind. So be sure to follow these instructions. For instance, via Google Web Fonts:
+
+```style
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+```
+
+## Font icons
+To use the font Icon component, you must first add the Font Awesome Icons font. Here are some instructions on how to do so:
+```npm
+npm install --save @fortawesome/fontawesome-free
+```
+
 > In order to to fully use the framework you need to install Daisy UI and Flowbite to make use of the required plugins.
 ```npm
 npm i Daisyui
 ```
-> and
+
 ```npm
 npm i flowbite
 ```
+```npm
+npm i swiper
+```
+
 > Then add Code050 UI to your `tailwind.config.js`
 ```tailwind.config.js
 module.exports = {
@@ -61,41 +78,6 @@ darkMode: 'class',
 
     theme: {
         extend: {
-
-            gradients: {
-                'darkoverlay': "linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 44%, rgba(0,0,0,0) 100%);",
-            },
-            colors: {
-                transparent: 'transparent',
-                'forest': {
-                    'DEFAULT': '#00894A',
-                    990: '#00210D',
-                    950: '#00391B',
-                    900: '#00522A',
-                    800: '#006D3A',
-                    700: '#00894A',
-                    600: '#17A660',
-                    500: '#40C178',
-                    400: '#60DE92',
-                    300: '#7EFBAC',
-                    200: '#C1FFD3',
-                    100: '#F3FFF3',
-                },
-                'stone': {
-                    'DEFAULT': '#757874',
-                    990: '#1A1C1A',
-                    950: '#2E312E',
-                    900: '#454744',
-                    800: '#5C5F5B',
-                    700: '#757874',
-                    600: '#8F918D',
-                    500: '#A9ACA7',
-                    400: '#C6C7C3',
-                    300: '#E1E3DE',
-                    200: '#F0F1EC',
-                    100: '#FBFDF7',
-                },
-            },
             fontFamily: {
                 'headline': [
                     'Raleway', ...defaultTheme.fontFamily.sans
@@ -179,8 +161,6 @@ darkMode: 'class',
         themes: [
             {
                 mytheme: {
-
-
                     "primary": "#17A660",
                     "secondary": "#6D97A3",
                     "accent": "#911BBA",
@@ -215,8 +195,8 @@ darkMode: 'class',
 ```
 
 ---
-## Use
-[See all components ->](https://www.documentatie.nl/components)
+<!-- ## Use
+[See all components ->](https://www.documentatie.nl/components) -->
 
 ## Documents and examples
 ---

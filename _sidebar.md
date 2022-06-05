@@ -8,29 +8,28 @@
 * Actions
 
     * [Buttons](/components/actions/buttons.md)
-    * [Dropdown](/components/actions/dropdown.md)
-    * [Modal](/components/actions/modal.md)
+    * [Select](/components/actions/dropdown.md)
+    <!-- * [Modal](/components/actions/modal.md) -->
 
 * Data display
 
-    * [Alert](/Data-display/alert.md)
-    * [Avatar](/Data-display/avatar.md)
     * [Cards](/Data-display/cards.md)
-    * [Input](/Data-display/cards.md)
-    * [Team member block](/Data-display/cards.md)
-    * [Carrousel](/Data-display/cards.md)
+    * [Team member block](/Data-display/team-member.md)
+    * [carousel](/Data-display/carousel.md)
 
 * Data input
-    * [Checkbox](/Data-display/cards.md)
-    * [Text input](/Data-display/cards.md)
-    * [Textarea](/Data-display/cards.md)
-    * [Toggle](/Data-display/cards.md)
 
+    * [Text input](/Data-input/input.md)
+    * [Text area](/components/actions/textarea.md)
+
+* Feedback
+    * [Progress](/feedback/progress.md)
+    * [Dialog](/feedback/dialog.md)
 * Layout
-    * [Sections](/Data-display/cards.md)
-    * [Divider](/Data-display/cards.md)
-    * [Footer](/Data-display/cards.md)
-    * [Hero](/Data-display/cards.md)
+    * [Sections](/layouts/sections.md)
+    * [Footer](/layouts/footer.md)
+    * [Hero](/layouts/hero.md)
+    * [Divider](/layouts/divider.md)
 
 * navigation
     * [Breadcrumbs](/Data-display/cards.md)
