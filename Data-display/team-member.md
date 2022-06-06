@@ -1,5 +1,14 @@
 # Team mebers
+
+Team members blocks to display each member and their job title
+
 ---
+
+
+![](./../_media/examples/teammember/teammember.png)
+
+---
+
 > parameters
 <br>
 **$image** - string

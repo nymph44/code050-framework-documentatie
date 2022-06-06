@@ -3,6 +3,8 @@ Text fields let users enter and edit text.
 
 Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
 
+![](./../../_media/examples/textarea/textarea.png)
+
 ## Basic Textarea
 The TextField wrapper component is a complete form control including a label, input, and help text. It comes with three variants: outlined (default), filled, and standard.
 

@@ -2,10 +2,9 @@
 
 Buttons allows user to take actions or make choices.
 
+![image](./../../_media/examples/buttons/primary.png)
 > parameters <br>
 **$slot** - string
-
-
 ---
 
 > To use the buttons inside a Laravel Blade project we add it as following. Inside the tag we pass text as prop to be displayed inside the button.

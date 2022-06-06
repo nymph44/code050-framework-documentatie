@@ -38,8 +38,8 @@ The simplest and fastest way to get up and running with the Code050 UI kit is by
 git clone https://github.com/nymph44/code050-framework-documentatie.git
 ```
 
-## Railway font
-Material UI was designed with the Roboto font in mind. So be sure to follow these instructions. For instance, via Google Web Fonts:
+## Fonts
+The Code050 UI kit was designed with the Raleway and Nunito font in mind. So be sure to follow these instructions. For instance, via Google Web Fonts:
 
 ```style
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>

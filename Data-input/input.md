@@ -1,5 +1,9 @@
 # input
 Text fields let users enter and edit text.
+
+![](./../_media/examples/input/input.png)
+
+
 ## Basic TextField
 The TextField wrapper component is a complete form control including a label, input, and help text. It comes with three variants: outlined (default), filled, and standard.
 

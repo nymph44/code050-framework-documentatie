@@ -2,6 +2,9 @@
 
 Select components are used for collecting user provided information from a list of options.
 
+![image](./../../_media/examples/select/select.png)
+
+---
 ```blade
 <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-base-100">
     your label
