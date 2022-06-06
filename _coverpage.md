@@ -10,3 +10,5 @@
 
 [GitHub](https://github.com/code050/code050-website/tree/develop/resources/views/components)
 [Get Started](#docsify)
+
+<!-- ![](_media/wallpaper.jpg) -->

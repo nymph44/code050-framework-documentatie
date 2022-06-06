@@ -62,7 +62,7 @@ npm i flowbite
 ```npm
 npm i swiper
 ```
-
+## Tailwind
 > Then add Code050 UI to your `tailwind.config.js`
 ```tailwind.config.js
 module.exports = {
@@ -206,6 +206,22 @@ darkMode: 'class',
 
 
 
+
+
 * [Buttons](/components/actions/buttons.md)
-* [Dropdown](/components/actions/dropdown.md)
-* [Modal](/components/actions/modal.md)
+* [Select](/components/actions/dropdown.md)
+* [Cards](/Data-display/cards.md)
+* [Team member block](/Data-display/team-member.md)
+* [carousel](/Data-display/carousel.md)
+* [Text input](/Data-input/input.md)
+* [Text area](/components/actions/textarea.md)
+* [Progress](/feedback/progress.md)
+* [Dialog](/feedback/dialog.md)
+* [Sections](/layouts/sections.md)
+* [Footer](/layouts/footer.md)
+* [Hero](/layouts/hero.md)
+* [Divider](/layouts/divider.md)
+* [Breadcrumbs](/Data-display/cards.md)
+* [Link](/Data-display/cards.md)
+* [Menu](/Data-display/cards.md)
+* [Navbar](/Data-display/cards.md)

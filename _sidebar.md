@@ -16,6 +16,7 @@
     * [Cards](/Data-display/cards.md)
     * [Team member block](/Data-display/team-member.md)
     * [carousel](/Data-display/carousel.md)
+    * [Blog block](/Data-display/blog-block.md)
 
 * Data input
 

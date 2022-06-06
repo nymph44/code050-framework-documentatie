@@ -1,5 +1,13 @@
 # Sections
 
+## Full width section
+```blade
+<x-sections.full-width>
+    Your content
+</x-sections.full-width>
+```
+
+## structure
 ```blade
 <div>
     <section class="">
