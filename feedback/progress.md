@@ -2,6 +2,8 @@
 
 ## Progress scroll bar
 
+![image](./../../_media/examples/progress/progress-bar.gif)
+
 > To use the progress bar on scroll, the following script needs to be included.
 ```.js
 <script>

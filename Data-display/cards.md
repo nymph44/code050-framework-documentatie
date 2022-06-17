@@ -1,6 +1,7 @@
 # Cards
 
 ## Default
+![image](./../../_media/examples/cards/project-card.png)
 > parameters
 <br>
 **$image** - string
@@ -95,6 +96,49 @@
 ```
 
 ## Consult
+![image](./../../_media/examples/cards/consult.png)
+> parameters
+<br>
+**$title** - string
+<br>
+**$slot** - string
+---
+
+```.html
+<div class="md:w-1/2 pb-8 pr-8 ">
+    <div class="border-2 h-48 border-primary dark:border-secondary rounded-2xl p-4">
+        <h1 class="mb-4 font-bold text-2xl text-primary dark:text-secondary">{{$title}}</h1>
+        <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
+    </div>
+</div>
+```
+
+> To use the buttons inside a Laravel Blade project we add it as following. Inside the tag we pass text as prop to be displayed inside the button.
+```.blade
+    <x-cards.consult>
+        <x-slot:title>
+
+        // your title
+
+        </x-slot:title>
+
+        // description goes here
+
+    </x-cards.consult>
+```
+
+The buttons are structured as follows:
+```.html
+    <div class="md:w-1/2 pb-8 pr-8 ">
+        <div class="border-2 h-48 border-primary rounded-2xl p-4">
+            <h1 class="mb-4 font-bold text-xl text-stone-990 dark:text-base-100">{{$title}}</h1>
+            <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
+        </div>
+    </div>
+```
+
+## Explanatory
+![image](./../../_media/examples/cards/explanatory.png)
 > parameters
 <br>
 **$title** - string

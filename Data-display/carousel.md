@@ -1,6 +1,6 @@
 # Carousel
 A website carousel or slider, is an effective way of displaying multiple images or content in a single space. It not only helps in saving screen space, but also encourages visitors to focus on important website content and improves the overall visual appeal effectively.
-
+![image](./../../_media/examples/swiper/swiper.gif)
 ---
 ## install Swiper
 !> Make sure Swiper.Js is intalled and add the folowing snippet in your page
