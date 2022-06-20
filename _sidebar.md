@@ -16,7 +16,7 @@
     * [Cards](/Data-display/cards.md)
     * [Team member block](/Data-display/team-member.md)
     * [carousel](/Data-display/carousel.md)
-    * [Blog block](/Data-display/blog-block.md)
+    * [Blog post](/Data-display/blog-block.md)
 
 * Data input
 
@@ -33,10 +33,9 @@
     * [Divider](/layouts/divider.md)
 
 * navigation
-    * [Breadcrumbs](/Data-display/cards.md)
-    * [Link](/Data-display/cards.md)
-    * [Menu](/Data-display/cards.md)
-    * [Navbar](/Data-display/cards.md)
+    * [Breadcrumbs](/Data-display/breadcrumbs.md)
+    * [Link](/components/actions/link.md)
+    * [Navbar](/layouts/navbar.md)
 
 * Reference
 

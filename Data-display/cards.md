@@ -1,14 +1,15 @@
 # Cards
 
-## Default
+## Case
 ![image](./../../_media/examples/cards/project-card.png)
 > parameters
 <br>
-**$image** - string
-<br>
 **$title** - string
 <br>
+**$categorie** - string
+<br>
 **$slot** - string
+---
 
 ```.blade
 <div class="project-card">
@@ -18,6 +19,7 @@
                 {{$categorie}}
             </span>
         </div>
+        <!-- -->
         @if ($style->isNotEmpty())
             <div class="project-card-container-image {{$style}}">
                 @else
@@ -42,40 +44,7 @@
 
 
 ```
-
-## Case
-
-> parameters
-<br>
-**$title** - string
-<br>
-**$categorie** - string
-<br>
-**$slot** - string
----
-
-```.html
-<card>
-    <div class="max-w-sm   relative  rounded overflow-hidden shadow-lg">
-        <div class="absolute top-36 z-10 px-6 ">
-            <div>
-                {{$title}}
-            </div>
-            <span
-                class="inline-block bg-error-content rounded-full px-3 py-1 text-base font-semibold text-gray-700 mr-2 mb-2">
-                {{$categorie}}
-            </span>
-        </div>
-        <img class="w-full h-60 object-cover"
-             src="https://play-lh.googleusercontent.com/MMBG4AZmpMhSfhF5k7QnFmhvFbaF5ZC_BtEOIKRt9TIkUZjul2lWwPZV75PwTfoSm23-jgMxkroRGA-vkDg"
-             alt="Mountain">
-        <div class="px-6 py-4">
-            {{$slot}}
-        </div>
-    </div>
-</card>
-```
-
+<!--
 ## Service
 > parameters
 <br>
@@ -97,7 +66,7 @@
         </div>
         {{$slot}}
     </div>
-    <!-- Add multiple features -->
+
     <div class="px-6 pt-4 pb-4">
         <div class="flex flex-row gap-4 pb-4 align-super">
             <i class="fa-solid text-primary text-xl fa-check"></i>
@@ -112,7 +81,7 @@
         </x-ui.buttons.medium.primary>
     </div>
 </div>
-```
+``` -->
 
 ## Consult
 ![image](./../../_media/examples/cards/consult.png)
@@ -123,38 +92,15 @@
 **$slot** - string
 ---
 
-```.html
-<div class="md:w-1/2 pb-8 pr-8 ">
-    <div class="border-2 h-48 border-primary dark:border-secondary rounded-2xl p-4">
-        <h1 class="mb-4 font-bold text-2xl text-primary dark:text-secondary">{{$title}}</h1>
-        <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
+```.blade
+<div class="consult-card">
+    <div class="consult-card-container">
+        <h1 class="consult-card-title">{{$title}}</h1>
+        <p class="consult-card-content">{{$slot}} </p>
     </div>
 </div>
 ```
 
-> To use the buttons inside a Laravel Blade project we add it as following. Inside the tag we pass text as prop to be displayed inside the button.
-```.blade
-    <x-cards.consult>
-        <x-slot:title>
-
-        // your title
-
-        </x-slot:title>
-
-        // description goes here
-
-    </x-cards.consult>
-```
-
-The buttons are structured as follows:
-```.html
-    <div class="md:w-1/2 pb-8 pr-8 ">
-        <div class="border-2 h-48 border-primary rounded-2xl p-4">
-            <h1 class="mb-4 font-bold text-xl text-stone-990 dark:text-base-100">{{$title}}</h1>
-            <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
-        </div>
-    </div>
-```
 
 ## Explanatory
 ![image](./../../_media/examples/cards/explanatory.png)
@@ -165,35 +111,24 @@ The buttons are structured as follows:
 **$slot** - string
 ---
 
-```.html
-<div class="md:w-1/2 pb-8 pr-8 ">
-    <div class="border-2 h-48 border-primary dark:border-secondary rounded-2xl p-4">
-        <h1 class="mb-4 font-bold text-2xl text-primary dark:text-secondary">{{$title}}</h1>
-        <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
-    </div>
-</div>
-```
-
-> To use the buttons inside a Laravel Blade project we add it as following. Inside the tag we pass text as prop to be displayed inside the button.
 ```.blade
-    <x-cards.consult>
-        <x-slot:title>
-
-        // your title
-
-        </x-slot:title>
-
-        // description goes here
-
-    </x-cards.consult>
-```
-
-The buttons are structured as follows:
-```.html
-    <div class="md:w-1/2 pb-8 pr-8 ">
-        <div class="border-2 h-48 border-primary rounded-2xl p-4">
-            <h1 class="mb-4 font-bold text-xl text-stone-990 dark:text-base-100">{{$title}}</h1>
-            <p class="text-lg leading-6 text-stone-990 dark:text-base-200">{{$slot}} </p>
+<div class="explanatory-card">
+    <div class="explanatory-card-content">
+        <h3 class="explanatory-card-title">{{$title}}</h3>
+        <p class="explanatory-card-sub">{{$slot}}</p>
+    </div>
+    <div class="inline-block bottom-0">
+        <div class="explanatory-card-url">
+            <a href="{{$url}}">
+                <x-ui.buttons.small.primary>
+                    Meer lezen
+                </x-ui.buttons.small.primary>
+            </a>
+        </div>
+        <div class="explanatory-card-image">
+            {{$image}}
         </div>
     </div>
+</div>
+
 ```

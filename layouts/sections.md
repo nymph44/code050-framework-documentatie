@@ -1,6 +1,7 @@
 # Sections
 
 ## Full width section
+The full width component will create space using the tailwind class 'w-full'. 
 ```blade
 <x-sections.full-width>
     Your content

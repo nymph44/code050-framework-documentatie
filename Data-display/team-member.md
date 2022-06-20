@@ -1,4 +1,4 @@
-# Team mebers
+# Team members
 
 Team members blocks to display each member and their job title
 
