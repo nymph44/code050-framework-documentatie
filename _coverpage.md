@@ -2,13 +2,13 @@
 
 # Component library<small>1.0</small>
 
-> A magical documentation site generator.
+> A design system build with enthousiasm for the Code050 ecosystem 
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- :heart::heart::heart:
+
+- Build with Blade, Tailwind and Daisy UI
 
 [GitHub](https://github.com/code050/code050-website/tree/develop/resources/views/components)
-[Get Started](#docsify)
+<!-- [Get Started](/) -->
 
 ![](_media/wallpaper.png)

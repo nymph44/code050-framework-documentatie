@@ -10,18 +10,37 @@
 <br>
 **$slot** - string
 
-```.html
-<card class="max-w-sm flex mx-auto justify-start border-gray-300  border rounded py-2">
-    <!-- Image -->
-    <div class="w-32">
-        {{$image}}
+```.blade
+<div class="project-card">
+    <div class="project-card-container">
+        <div class="category-span-position">
+            <span class="category-span">
+                {{$categorie}}
+            </span>
+        </div>
+        @if ($style->isNotEmpty())
+            <div class="project-card-container-image {{$style}}">
+                @else
+                    <div class="project-card-container-image">
+                        @endif
+                        <img class="project-card-container-image-style" src="{{$image}}" alt="">
+                    </div>
+                    <div class="project-card-content-container">
+                        <p class="project-card-content-title">{{$title}}</p>
+                        <p class="project-card-content-subtext">{{ substr($slot ?? '', 0,50)}}...</p>
+                        <div class="project-card-redirect">
+                            <a href="#">
+                                <x-ui.buttons.small.alternative-outline>
+                                    Website bezoeken
+                                </x-ui.buttons.small.alternative-outline>
+                            </a>
+                        </div>
+                    </div>
+            </div>
     </div>
-    <!-- Description -->
-    <div class="w-3/4">
-        {{$title}}
-        {{$slot}}
-    </div>
-</card>
+</div>
+
+
 ```
 
 ## Case

@@ -64,9 +64,15 @@ npm i swiper
 ```
 ## Tailwind
 > Then add Code050 UI to your `tailwind.config.js`
+<details>
+    <summary>
+        Tailwind config
+    </summary>
+
 ```tailwind.config.js
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-darkMode: 'class',
+    darkMode: 'class',
 
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -78,10 +84,113 @@ darkMode: 'class',
 
     theme: {
         extend: {
+
+            gradients: {
+                'darkoverlay': "linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 44%, rgba(0,0,0,0) 100%);",
+            },
+            colors: {
+                transparent: 'transparent',
+                'forest': {
+                    'DEFAULT': '#00894A',
+                    990: '#00210D',
+                    950: '#00391B',
+                    900: '#00522A',
+                    800: '#006D3A',
+                    700: '#00894A',
+                    600: '#17A660',
+                    500: '#40C178',
+                    400: '#60DE92',
+                    300: '#7EFBAC',
+                    200: '#C1FFD3',
+                    100: '#F3FFF3',
+                },
+                'jade': {
+                    'DEFAULT': '677C6B',
+                    990: '#0D1F13',
+                    950: '#223427',
+                    900: '#374B3C',
+                    800: '#4F6353',
+                    700: '#677C6B',
+                    600: '#809684',
+                    500: '#9BB09E',
+                    400: '#B6CCB9',
+                    300: '#D2E8D4',
+                    200: '#E0F6E2',
+                    100: '#F3FFF3',
+                },
+                'uranus': {
+                    'DEFAULT': '#537D88',
+                    990: '#001F26',
+                    950: '#023640',
+                    900: '#204C57',
+                    800: '#3A646F',
+                    700: '#537D88',
+                    600: '#6D97A3',
+                    500: '#88B2BE',
+                    400: '#A2CDD9',
+                    300: '#BEEAF7',
+                    200: '#D5F6FF',
+                    100: '#F6FDFF',
+                },
+                'lobster': {
+                    'DEFAULT': '#DD3730',
+                    990: '#410001',
+                    950: '#680003',
+                    900: '#930006',
+                    800: '#BA1B1B',
+                    700: '#DD3730',
+                    600: '#FF5449',
+                    500: '#FF897A',
+                    400: '#FFB4A9',
+                    300: '#FFDAD4',
+                    200: '#FFEDE9',
+                    100: '#FCFCFC',
+                },
+                'stone': {
+                    'DEFAULT': '#757874',
+                    990: '#121212',
+                    950: '#292929',
+                    900: '#383838',
+                    800: '#5C5F5B',
+                    700: '#757874',
+                    600: '#8F918D',
+                    500: '#A9ACA7',
+                    400: '#C6C7C3',
+                    300: '#E1E3DE',
+                    200: '#F0F1EC',
+                    100: '#FBFDF7',
+                },
+                'herb': {
+                    'DEFAULT': '#717971',
+                    990: '#161D17',
+                    950: '#161D17',
+                    900: '#414942',
+                    800: '#586159',
+                    700: '#717971',
+                    600: '#8A938A',
+                    500: '#A5ADA4',
+                    400: '#C0C9BF',
+                    300: '#DDE5DB',
+                    200: '#EBF3E9',
+                    100: '#F6FEF4',
+                },
+                'amber': {
+                    'DEFAULT': '#FFC267',
+                    990: '#AE6D09',
+                    950: '#C88012',
+                    900: '#D98D1A',
+                    800: '#E89C29',
+                    700: '#F9AC39',
+                    600: '#FFB649',
+                    500: '#FFC267',
+                    400: '#FFCA7A',
+                    300: '#FFD698',
+                    200: '#FFDDAB',
+                    100: '#FFECD0',
+                }
+            },
             fontFamily: {
-                'headline': [
-                    'Raleway', ...defaultTheme.fontFamily.sans
-                ],
+                'headline': ['Raleway', ...defaultTheme.fontFamily.sans],
                 'body': [
                     'nunito', defaultTheme.fontFamily.sans
                 ],
@@ -160,9 +269,11 @@ darkMode: 'class',
     daisyui: {
         themes: [
             {
+
                 mytheme: {
-                    "primary": "#17A660",
-                    "secondary": "#6D97A3",
+
+                    "primary": "#0F8049",
+                    "secondary": "#1EC875",
                     "accent": "#911BBA",
                     "neutral": "#454744",
                     "base-100": "#fff",
@@ -192,8 +303,10 @@ darkMode: 'class',
         require('daisyui'),
         require('flowbite/plugin')
     ],
-```
+};
 
+```
+</details>
 ---
 <!-- ## Use
 [See all components ->](https://www.documentatie.nl/components) -->
