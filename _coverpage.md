@@ -1,6 +1,6 @@
 ![logo](_media/logowhite.png)
 
-# Component library<small>1.0</small>
+# UI kit<small>1.0</small>
 
 > A design system build with enthousiasm for the Code050 ecosystem 
 

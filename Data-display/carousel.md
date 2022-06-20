@@ -39,8 +39,6 @@ npm install swiper
 </script>
 ```
 
-
----
 ## Swiper component
 > parameters
 <br>
@@ -52,7 +50,6 @@ npm install swiper
 <br>
 **$slot** - string
 
----
 ```.html
 <!-- Slider main container -->
 <div class="mt-8">
@@ -70,6 +67,31 @@ npm install swiper
             {{--<div class="hidden swiper-button-next"></div>--}}
             {{--<div class="hidden swiper-button-prev"></div>--}}
             <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+```
+## Swiper slide structure
+```blade
+<div class="swiper-slide swiper">
+    <div
+        class="swiper-container">
+        <div class="swiper-container-image">
+            @if ($image->isNotEmpty())
+                <img class="object-cover md:h-32 rounded-xl"width="300" height="600" src="{{$image}}" alt=""/>
+            @else
+                <img class="object-cover md:h-32 rounded-xl" loading="lazy" width="300" height="600" src="SOURCE IMAGE" alt="No image found"/>
+            @endif
+        </div>
+        <div class="swiper-container-content">
+            <div class="swiper-container-content-text">
+                <i class="swiper-quote-icon fa-solid fa-quote-left"></i>
+                <blockquote class="swiper-blockquote">
+                    <p class="swiper-blockquote-slot">{{$slot}}</p>
+                    <p class="swiper-blockquote-title">{{$naam}}, {{$functie}}</p>
+                    <p class="swiper-blockquote-organisation">{{$organisatie}}</p>
+                </blockquote>
+            </div>
         </div>
     </div>
 </div>
@@ -104,7 +126,7 @@ npm install swiper
         object-fit: cover;
     }
     :root {
-        --swiper-theme-color: #17A660;
+        --swiper-theme-color: ;
     }
 </style>
 ```

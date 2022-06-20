@@ -1,4 +1,4 @@
-# code050 UI kit
+# Code050 UI kit
 ---
 | Version  |1.0|
 |---------|------------|
@@ -12,11 +12,9 @@
 
 [How to use](https://www.code050.nl)
 
----
 **The code050 UI kit works by calling onto the blade components inside Laravel. I tried my best to make these components as extensive as possible by making use of ability to fill them with props.**
 
 It's easy, reusable, and reliable.
-
 ---
 ## Features
 * Consistency inside the Code050 ecosystem
