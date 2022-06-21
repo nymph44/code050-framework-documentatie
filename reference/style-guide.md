@@ -10,6 +10,7 @@
 
 ---
 #### Logo spacing
+![](../_media/examples/Styleguide/logo/logo-spacing.png)
 
 ---
 ### Color palette

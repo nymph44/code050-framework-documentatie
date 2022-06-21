@@ -1,8 +1,7 @@
 
 * Getting started
 
-    * [Quickstart](/)
-    * [Install now!](/reference/installation.md)
+    * [Quickstart](/reference/installation.md)
     * [Style guide](/reference/style-guide.md)
 
 * Actions
