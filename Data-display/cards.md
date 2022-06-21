@@ -2,6 +2,8 @@
 
 ## Case
 ![image](./../../_media/examples/cards/project-card.png)
+
+### Usage
 > parameters
 <br>
 **$title** - string
@@ -11,7 +13,21 @@
 **$slot** - string
 ---
 
-```.blade
+```blade
+<x-cases.card>
+  <x-slot:title>Motorcycles United</x-slot:title>
+  <!--Can be left empty-->
+  <x-slot:style>Additional option for styling the image</x-slot:style>
+
+  Text here will be placed in the subtext p tag.
+
+  <x-slot:image>  URL TO IMAGE  </x-slot:image>
+  <x-slot:url>  URL TO DESITINATION </x-slot:url>
+</x-cases.card>
+```
+
+### Structure
+```blade
 <div class="project-card">
     <div class="project-card-container">
         <div class="category-span-position">
@@ -41,47 +57,7 @@
             </div>
     </div>
 </div>
-
-
 ```
-<!--
-## Service
-> parameters
-<br>
-**$title** - string
-<br>
-**$price** - integer
-<br>
-**$slot** - string
----
-
-
-```.html
-<div class="max-w-sm rounded shadow-lg">
-    <div class="px-6 py-4">
-        <p class="flex pt-2 pb-4 text-medium text-xl justify-center">{{$title}}</p>
-        <div class="flex flex-row space-x-1 justify-center items-end pb-4">
-            <div class="font-bold text-4xl ">€{{$price}}</div>
-            <div class="text-gray-600 text-md">/maand</div>
-        </div>
-        {{$slot}}
-    </div>
-
-    <div class="px-6 pt-4 pb-4">
-        <div class="flex flex-row gap-4 pb-4 align-super">
-            <i class="fa-solid text-primary text-xl fa-check"></i>
-            <p class="text-gray-800 text-base align-middle">
-                Feature #1
-            </p>
-        </div>
-    </div>
-    <div class="flex justify-center pb-8 px-6">
-        <x-ui.buttons.medium.primary class="w-full h-3 text-4xl text-white text-bold">
-            Select
-        </x-ui.buttons.medium.primary>
-    </div>
-</div>
-``` -->
 
 ## Consult
 ![image](./../../_media/examples/cards/consult.png)
@@ -91,7 +67,15 @@
 <br>
 **$slot** - string
 ---
+### Usage
+```blade
+<x-cards.consult>
+  <x-slot:title>CARD TITLE</x-slot:title>
+  SLOT TEXT GOES HERE
+</x-cards.consult>
+```
 
+### Structure
 ```.blade
 <div class="consult-card">
     <div class="consult-card-container">
@@ -110,7 +94,17 @@
 <br>
 **$slot** - string
 ---
+### Usage
+```blade
+<x-service.explanatory-card>
+  <x-slot:title>TITLE GOES HERE</x-slot:title>
+  SLOT TEXT GOES HERE
+  <x-slot:image><img class="rounded-xl px-4" width="600" height="400" src="#" alt=""/></x-slot:image>
+  <x-slot:url>ROUTE TO DESITINATION</x-slot:url>
+</x-service.explanatory-card>
+```
 
+### Structure
 ```.blade
 <div class="explanatory-card">
     <div class="explanatory-card-content">

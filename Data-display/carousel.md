@@ -50,6 +50,8 @@ npm install swiper
 <br>
 **$slot** - string
 
+### Usage
+
 ```.html
 <!-- Slider main container -->
 <div class="mt-8">
@@ -63,15 +65,15 @@ npm install swiper
             </x-cards.swiper-slide>
         </div>
         <div class="py-4">
-            Additional buttons for navigation
-            {{--<div class="hidden swiper-button-next"></div>--}}
-            {{--<div class="hidden swiper-button-prev"></div>--}}
+            <!--Additional buttons for navigation-->
+            <div class="hidden swiper-button-next"></div>
+            <div class="hidden swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
         </div>
     </div>
 </div>
 ```
-## Swiper slide structure
+### Swiper slide structure
 ```blade
 <div class="swiper-slide swiper">
     <div
@@ -96,7 +98,7 @@ npm install swiper
     </div>
 </div>
 ```
-## Styling
+### Styling
 > Additional styling regarding the code050 guidelines
 
 ```style
@@ -130,4 +132,3 @@ npm install swiper
     }
 </style>
 ```
-
