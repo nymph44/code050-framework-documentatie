@@ -17,7 +17,6 @@ Dialogs inform users about a task and can contain critical information, require 
     class="z-10  absolute right-0 w-full mt-2 origin-top-right
     rounded-md shadow-lg ">
     <div class="px-2 py-2 bg-white rounded-md shadow dark:bg-stone-990">
-
     <a class=" block px-4 py-2 mt-2 text-sm font-bold bg-transparent
         rounded-lg dark:bg-transparent dark:hover:bg-stone-600
         dark:focus:bg-stonedark:focus:text-white dark:hover:text-white
@@ -25,7 +24,7 @@ Dialogs inform users about a task and can contain critical information, require 
         hover:bg-gray-200 focus:bg-grayfocus:outline-none
         focus:shadow-outline flex gap-2 items-center justify-center
     " href="#">
-        NL
+        LANGUAGE #1
     </a>
     <a class="block px-4 py-2 mt-2 text-sm font-bold bg-transparent
     rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600
@@ -34,7 +33,7 @@ Dialogs inform users about a task and can contain critical information, require 
     hover:bg-grayfocus:bg-gray-200 focus:outline-none focus:shadow-outline
     flex gap-2 items-center justify-center "
     href="#">
-        EN
+        LANGUAGE #2
     </a>
 </div>
 ```

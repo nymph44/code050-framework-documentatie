@@ -2,7 +2,8 @@
 * Getting started
 
     * [Quickstart](/)
-
+    * [Install now!](/reference/installation.md)
+    * [Style guide](/reference/style-guide.md)
 
 * Actions
 
@@ -13,6 +14,7 @@
 * Data display
 
     * [Cards](/Data-display/cards.md)
+    * [Banner redirect](/Data-display/banner-redirect.md)
     * [Team member block](/Data-display/team-member.md)
     * [carousel](/Data-display/carousel.md)
     * [Blog post](/Data-display/blog-block.md)
@@ -35,7 +37,3 @@
     * [Breadcrumbs](/Data-display/breadcrumbs.md)
     * [Link](/components/actions/link.md)
     * [Navbar](/layouts/navbar.md)
-
-* Reference
-
-    * [Style guide](/reference/style-guide.md)

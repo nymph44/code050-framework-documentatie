@@ -15,7 +15,7 @@ Blogs are a great way to supercharge your experiences.
 <br>
 **$secondParagraph** - string
 
-## Usage
+### Usage
 
 ```blade
 <x-blogs.block>
@@ -28,7 +28,7 @@ Blogs are a great way to supercharge your experiences.
 ```
 
 
-## Structure
+### Structure
 ```blade
 <div class="flex mx-auto  max-w-screen-xl md:w-full lg:w-10/12 p-4 flex-col">
 
@@ -50,3 +50,6 @@ Blogs are a great way to supercharge your experiences.
     </div>
 </div>
 ```
+### example
+
+>![](../_media/examples/blog/blog.png)

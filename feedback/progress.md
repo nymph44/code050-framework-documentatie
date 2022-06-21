@@ -1,7 +1,5 @@
 # Progress
 
-## Progress scroll bar
-
 ![image](./../../_media/examples/progress/progress-bar.gif)
 
 > To use the progress bar on scroll, the following script needs to be included.
@@ -21,7 +19,7 @@
 
 !> The script will look for an element called myBar using the DOM.
 
-add the folowing HTML in your page
+### usage
 
 ```.html
     <div class="progress-container bg-base-200 dark:bg-stone-900">

@@ -8,8 +8,10 @@
 
 ![](../_media/examples/Styleguide/logov.png)
 
+---
 #### Logo spacing
 
+---
 ### Color palette
 
 ![](../_media/examples/Styleguide/colorp.png)
@@ -28,37 +30,43 @@
 | "warning":   | #FFAD40 |
 | "error":     | #FF5449 |
 
+---
 #### Accessible color combinations
 
-> With the WCAG 2.1 guidelines in mind, applying color overlap is pre-defined in the style guide.  
+> With the WCAG 2.1 guidelines in mind, applying color overlap is pre-defined in the style guide.
 
 ![](../_media/examples/Styleguide/accessible.png)
 
 
 ## Typography
 
+![](../_media/examples/Styleguide/Typography.png)
+
+---
+
 ### Typefaces
-
+---
 ### Type uses
-
+---
 ### Typesizes
-
+---
 ## Spacing objects
 
 ### Spacing & layout
-
+---
 ### Spacing & accessibility
-
+---
 ### Grid
-
+---
 ## User accessibility
 
 ### Perceptibility
-
+---
 ### Operable
-
+---
 ### Understandability
-
+---
 ### Robust
-
+---
 ### Consistency
+---

@@ -35,10 +35,12 @@
   </div>
   <script>
     window.$docsify = {
-       themeable: {
+      subMaxLevel: 2,
+      themeable: {
           readyTransition : true, // default
           responsiveTables: true  // default
       },
+
       pagination: {
     previousText: 'previous',
     nextText: 'next',
@@ -58,7 +60,6 @@
       '/.*/_sidebar.md': '/_sidebar.md'
 
     },
-      subMaxLevel: 3,
       loadSidebar: true,
       name: '',
       repo: '',

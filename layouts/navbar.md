@@ -85,6 +85,11 @@ Required javascript!
             <a class="navigation-item focus:shadow-outline" href="#">page</a>
             <a class="navigation-item focus:shadow-outline" href="#">page</a>
             <a class="navigation-item focus:shadow-outline" href="#">page</a>
+
+            <!---------------------------->
+            <!--Language dialog goes her-->
+            <!---------------------------->
+
             <button id="theme-toggle" type="button" class="navigation-theme-toggle">
                 <div class="navigation-theme-toggle-container">
                     <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="#ebc815" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -106,10 +111,10 @@ Required javascript!
 </div>
 ```
 
-> optional language switcher
+> optional language dialog
 
 ```blade
-<!--Language switcher-->
+<!--Language dialog-->
 <div @click.away="open = false" class="relative mr-4" x-data="{ open: false }">
     <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-bold text-left rounded-lg dark:bg-transparent dark:focus:text-white dark:hover:text-white dark:focus:bg-gray-600 dark:hover:bg-gray-600 md:w-auto  md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
         <span class="uppercase flex items-center gap-2">
@@ -128,3 +133,5 @@ Required javascript!
 	</div>
 </div>
 ```
+
+!> <b>Note</b> the dialog needs to be placed inside nav element
